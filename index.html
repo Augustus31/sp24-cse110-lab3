@@ -59,17 +59,17 @@
          Send your own suggestions!
          <form method="get">
             <fieldset>
-               <label">email</label>
-               <input type="text" name="email"><br><br>
-               <label>Which year are you?</label>
-               <select name="year">
+               <label for="em">email</label>
+               <input id="em" type="text" name="email"><br><br>
+               <label for="year">Which year are you?</label>
+               <select id="year" name="year">
                   <option value="1st">1st</option>
                   <option value="2nd">2nd</option>
                   <option value="3rd">3rd</option>
                   <option value="4th">4th</option>
                </select>
                <br>
-               <label>What is your College?</label>
+               <label for="collegeC">What is your College?</label>
                <input list="collegeC" id="college" name="college"/>
                <datalist id="collegeC">
                   <option value="Muir"></option>
@@ -82,7 +82,7 @@
                   <option value="ERC"></option>
                </datalist>
                <br>
-               <label for="sug">Suggestion:</label>
+               <label for="Suggestion">Suggestion:</label>
                <textarea id="Suggestion" name="Suggestion" rows="3" cols="40"></textarea>
                <br><br>
                <button type="button">Submit</button>
