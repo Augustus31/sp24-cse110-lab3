@@ -79,5 +79,25 @@ summary:has(+ p){
    border-color:#910000;
    border-width: 0.1vw;
    border-radius: 3px;
+   display:inline-block;
 }
 
+header{
+   display:block;
+}
+
+#vidaud{
+
+}
+
+#ceddin{
+   height: 30em;
+   width: 15em;
+   max-width: 1000px;
+   min-width: 1000px;   
+   position:relative;
+}
+
+#deden{
+   position:static;
+}
