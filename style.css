@@ -1,11 +1,11 @@
 /* Background Color */
-@media (min-aspect-ratio: 1) {
+@media (min-aspect-ratio: 1/1) {
    * {
       background-color:oldlace
    }
 } 
    
-@media (max-aspect-ratio: 1) {
+@media (max-aspect-ratio: 1/1) {
    * {
       background-color:rgb(209, 218, 255)
    }
