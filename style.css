@@ -1,12 +1,21 @@
 /* Background Color */
-* {
-   background-color:oldlace
-}
+@media (min-aspect-ratio: 1) {
+   * {
+      background-color:oldlace
+   }
+} 
+   
+@media (max-aspect-ratio: 1) {
+   * {
+      background-color:rgb(209, 218, 255)
+   }
+} 
 
 h1{
    color: midnightblue;
    text-align: center;
-   text-decoration: underline
+   text-decoration: underline;
+   font-family: "Oswald", sans-serif;
 }
 
 #typeofmeeting{
@@ -23,7 +32,11 @@ a[href^="https://"]{
 
 a:hover {
    color: #04ba2f;
- }
+}
+
+a:active{
+   color:rgb(255, 0, 208)
+}
 
 h2,h3{
    text-align: center;
@@ -87,7 +100,11 @@ header{
 }
 
 #vidaud{
-
+   display:flex;
+   flex-wrap: wrap;
+   flex-flow: column;
+   flex-direction: column;
+   align-items: center;
 }
 
 #ceddin{
@@ -100,4 +117,11 @@ header{
 
 #deden{
    position:static;
+}
+
+fieldset{
+   display:grid;
+   grid-area:auto;
+   grid-row:span;
+   grid-column: span;
 }
