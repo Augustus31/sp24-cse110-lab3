@@ -1,0 +1,57 @@
+/* Background Color */
+* {
+   background-color:oldlace
+}
+
+h1{
+   color: midnightblue;
+   text-align: center;
+}
+
+#typeofmeeting{
+   color: #3f3e46;
+}
+
+.date{
+   color:rgb(85, 12, 119)
+}
+
+a[href^="https://"]{
+   color:rgb(5, 86, 2)
+}
+
+a:hover {
+   color: #04ba2f;
+ }
+
+h2,h3{
+   text-align: center;
+}
+
+ol li{
+   color:#910000
+}
+
+ul > li{
+   color:rgb(54, 54, 133)
+}
+
+ol ~ b{
+   background-color:rgb(190, 224, 224)
+}
+
+summary + p{
+   background-color: rgb(203, 231, 255);
+   & em{
+      background-color: aliceblue;
+   }
+   
+}
+
+p.text{
+   font-size: 20px;
+}
+
+summary:has(+ p){
+   color: #c08a00;
+}
