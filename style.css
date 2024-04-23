@@ -43,7 +43,7 @@ ol ~ b{
 summary + p{
    background-color: rgb(203, 231, 255);
    & em{
-      background-color: aliceblue;
+      background-color: var(--cor,aliceblue);
    }
    
 }
@@ -55,3 +55,28 @@ p.text{
 summary:has(+ p){
    color: color-mix(in srgb, white, red);
 }
+
+#main{
+   margin-top: 1pc;
+   margin-bottom: 1pc;
+   margin-left: 0.1em;
+   margin-right: 0.1em;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-style: double;
+   border-color:#910000;
+   border-width: 0.5vh;
+   border-radius: 3px;
+}
+
+#sec1{
+   margin: 8pt 8pt 8pt 8pt;
+   padding: 10px 10px 10px 10px;
+   border-style: solid;
+   border-color:#910000;
+   border-width: 0.1vw;
+   border-radius: 3px;
+}
+
